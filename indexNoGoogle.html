@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+<title>Family Monitor</title>
+</head>
+
+<body>
+<h1>Family Monitor</h1>
+<ul>
+<li><h3> <A href="#Introduction">Introduction</A></h3>
+<li><h3> <A href="#Userinterface">The User Interface</A></h3>
+<li><h3> <A href="#Settings">Settings</A></h3>
+<li><h3> <A href="#Privacy">Privacy Policy</A></h3>
+<li><h3> <A href="#FAQ">FAQ</A></h3>
+</ul>
+<a id="Introduction"></a>
+<h2>Introduction</h2>
+<p>Family Monitor is a very simple app that works alongside Google Maps. Most of the configuration that Family Monitor uses is set through the Google Maps interface either via the Maps browser interface or the Maps app. Firstly, ask your family to allow Google Maps to share their locations with you and then use Google Maps to define locations that will be used to configure Family Monitor alerts. For example, the location of your home and of your children's schools.</p>
+<p>Within Family Monitor define the alerts you require which are in the form of:</p>
+<ul>
+<li>Suwon is further than 800m from home.
+<li>James is closer than 2km to the library.
+<li>Suwon is further than 500m from Me.
+<li>Me is closer than 20km to the office.
+</ul>
+<p>Note that you refer to yourself as Me. And that's it!</p>
+<a id="Userinterface"></a>
+<h2>The User Interface</h2>
+
+<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/familym.jpg" alt="Family" >
+
+<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/alertsm.jpg" alt="Alerts" >
+
+<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/firedalerts.jpg" alt="Fired Alerts" >
+
+<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/map.jpg" alt="Map Alerts" >
+
+<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/wizard.jpg" alt="Wizard" >
+
+<h3>Family</h3>
+<p>Tap a family member to view their location on the Map tab.</p>
+<h3>Alerts</h3>
+<p>Slide, left or right, an alert to delete or edit it. Tap an alert to view the object of the alert's location on the Map tab. If you are using a non-touchscreen device, such as a Fire TV, press or long-press the remote's select button for these options.</p>
+<h3>Fired Alerts</h3>
+<p>Slide left a fired alert to delete it. Tap a fired alert to view the object of the alert's location on the Map tab.</p>
+<h3>Map</h3>
+<p>A browser view of Google Maps.</p>
+
+<a id="Settings"></a>
+<h2>Settings</h2>
+<p>The following can be found on the settings page which is accessible via the cog button.</p>
+<ul>
+<li>Check frequency
+<p>How frequently to request an update of your family's locations from Google. A value lower than every two minutes is not possible.</p>
+<li>Alert Auto Reset
+<p>Whether to automatically reset an alert. For example, if an alert is set to fire when James is closer than 100m from home:</p>
+<ol>
+<li> Alert fires when James is closer than 100m from home
+<li> Later, James is further than 100m from home
+<li> Later still, James is again closer than 100m from home, if the alert auto resets, the alert will fire again. If the alert does not auto reset then no new alert will fire.
+<br>
+<br>
+</ol>
+<li>Alert Reset Period
+<p>How long to wait before resetting the alert. In the above example, the Alert Reset Period is, at step 2, how long James has to be further than 100m from home before the alert auto resets.</p>
+<li>No Update Warning
+<p>If enabled, Family Monitor will alert if someone has not been seen for a period defined by the <i>No Update Period</i> setting. The period should not be too short since there may be extensive period where Google Maps is not updated with a new location.</p>
+<li>Play Alarm
+<p>Notifications produced by Family Monitor can be quite subtle and hence easily missed. If it is important not to miss a notification, an alarm can also be used which will sound when a notification is produced.</p>
+<li>Use GPS
+<p>If selected, the local device (i.e. the device running Family Monitor) will use its GPS to obtain its location instead of the location reported by Google Maps. All other family locations are still obtained from Google Maps.</p>
+<li>Units of Distance
+<p>Whether the metric or imperial system should be used.</p>
+</ul>
+<a id="Privacy"></a>
+<h2>Privacy Policy</h2>
+<p>Family Monitor does not ask for, process or store any personal information apart from the names of the family members associated with alerts that the user creates. These alerts are only stored on the device running Family Monitor. In addition, the only network communication is to addresses (URLs) within the Google.com domain and to cyferorg.github.io when displaying this help page.</p>
+<a id="Mapssetup"></a>
+
+<a id="FAQ"></a>
+<h2>FAQ</h2>
+<ul>
+<li>Change Google account - Tap the Logout button within Settings.
+</ul>
+</ul>
+</body>
+</html>
