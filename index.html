@@ -19,12 +19,12 @@
 </ul>
 <a id="Introduction"></a>
 <h2>Introduction</h2>
-<p>Family Monitor is a very simple app that works alongside Google Maps. Most of the configuration that Family Monitor uses is set through the Google Maps interface either via the Maps browser interface or the Maps app. Firstly, ask your family to allow Google Maps to share their locations with you (<A href="#Mapssetup">see below</A>) and then use Google Maps to define locations that will be used to configure Family Monitor alerts. For example, the location of your home and of your children's schools..</p>
+<p>Family Monitor is a very simple app that works alongside Google Maps. Most of the configuration that Family Monitor uses is set through the Google Maps interface either via the Google Maps browser interface or the Google Maps app. Firstly (before using the Family Monitor app), ask your family to allow Google Maps to share their locations with you (<A href="#Mapssetup">see below</A>) and then use Google Maps to define locations that will be used to configure Family Monitor alerts. For example, the location of your home and of your children's schools.</p>
 <p>Within Family Monitor define the alerts you require which are in the form of:</p>
 <ul>
-<li>Suwon is further than 800m from home.
+<li>Sue is further than 800m from home.
 <li>James is closer than 2km to the library.
-<li>Suwon is further than 500m from Me.
+<li>Sue is further than 500m from Me.
 <li>Me is closer than 20km to the office.
 </ul>
 <p>Note that you refer to yourself as Me. And that's it!</p>
@@ -42,7 +42,7 @@
 <img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/wizard.jpg" alt="Wizard" >
 
 <h3>Family</h3>
-<p>Tap a family member to view their location on the Map tab.</p>
+<p>Tap a family member to view their location on the Map tab. Slide left a family member and tap the lightning icon, to create an auto alert. This is an alert that will fire when the family member moves more than a specified distance from their current location. The distance is set in the Settings page.</p>
 <h3>Alerts</h3>
 <p>Slide, left or right, an alert to delete or edit it. Tap an alert to view the object of the alert's location on the Map tab. If you are using a non-touchscreen device, such as a Fire TV, press or long-press the remote's select button for these options.</p>
 <h3>Fired Alerts</h3>
@@ -67,8 +67,14 @@
 </ol>
 <li>Alert Reset Period
 <p>How long to wait before resetting the alert. In the above example, the Alert Reset Period is, at step 2, how long James has to be further than 100m from home before the alert auto resets.</p>
-<li>No Update Warning
-<p>If enabled, Family Monitor will alert if someone has not been seen for a period defined by the <i>No Update Period</i> setting. The period should not be too short since there may be extensive period where Google Maps is not updated with a new location.</p>
+<li>Update Warning
+<p>If enabled, Family Monitor will alert if someone has not been seen for a period defined by the <i>No Update Period</i> setting. The period should not be too short since there may be extensive periods where Google Maps is not updated with a new location.</p>
+<li>Update Period
+<p>See above.</p>
+<li>Early Alert Fire
+<p>If enabled, Family Monitor will fire an alert prior to the event taking place if it has been calculated that the event will take place prior to the next update of family locations.</p>
+<li>Auto Distance
+<p>The distance to use when the Auto Alert function is called. The distance is in metres or yards, depending on the <em>Units of Distance</em> setting.</p>
 <li>Play Alarm (not on iOS)
 <p>Notifications produced by Family Monitor can be quite subtle and hence easily missed. If it is important not to miss a notification, an alarm can also be used which will sound when a notification is produced.</p>
 <li>Use GPS (always active on iOS)
@@ -104,7 +110,7 @@
 <li>Change Google account - Tap the Logout button within Settings.
 <li>Give a location a better (more descriptive) name in the list of objects - Using a browser, go to your <a href="https://www.google.com/bookmarks">Google bookmarks page</a>, click Edit for the desired location and enter whatever you want in the Name field. 
 <a id="nolocation"/>
-<li>Red box around event or message about can't find location - This is probably due to the age of the Android (unlikely to be iOS) system being used. The only option is to manually enter locations into your <a href="https://www.google.com/bookmarks">Google bookmarks page</a> with the following steps:
+<li>Red box around alert or a message about location can't be found - This is probably due to the age of the Android (unlikely to be iOS) system being used. The only option is to manually enter locations into your <a href="https://www.google.com/bookmarks">Google bookmarks page</a> with the following steps:
 <ul>
 <li>Click Add bookmark
 <li>Enter the name of the location (e.g. home or school) in the Name field
