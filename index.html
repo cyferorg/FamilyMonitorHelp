@@ -37,7 +37,7 @@
 
 <img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/firedalerts.jpg" alt="Fired Alerts" >
 
-<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/map.jpg" alt="Map Alerts" >
+<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/mapinked.jpg" alt="Map Alerts" >
 
 <img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/wizard.jpg" alt="Wizard" >
 
@@ -48,7 +48,7 @@
 <h3>Fired Alerts</h3>
 <p>Slide left a fired alert to delete it. Tap a fired alert to view the object of the alert's location on the Map tab.</p>
 <h3>Map</h3>
-<p>A browser view of Google Maps.</p>
+<p>A browser view of Google Maps. Define locations to be used in Alerts.</p>
 
 <a id="Settings"></a>
 <h2>Settings</h2>
@@ -87,35 +87,21 @@
 <p>Family Monitor does not ask for, process or store any personal information apart from the names of the family members associated with alerts that the user creates. These alerts are only stored on the device running Family Monitor. In addition, the only network communication is to addresses (URLs) within the Google.com domain and to cyferorg.github.io when displaying this help page.</p>
 <a id="Mapssetup"></a>
 <h2>Google Maps Configuration</h2>
-<p>There are two things that need to be configured on Google Maps for Family Monitor to work effectively, both of which you may already have set up. (The following screenshots are from the Android version of the Google Maps app but the iOS version is very similar.)</p>
-<ol>
-<li>Location sharing - those family members you wish to monitor must share their locations with you. Each family member may remove the sharing of their location at any time without notifying you, though you will notice that their location is no longer being shared with you. Let us assume you wish to monitor your son's location. You can either directly ask your son to use his Google Maps app (this stage can't be done using a browser) and configure Maps to share his location with you, or you can go into the Google Maps app and send an invitation to your son asking him to share his location. Detailed instructions can be found by googling or, for example, <a href="https://support.google.com/maps/answer/7326816">here</a>.
+<p><i>Note that prior to version 1.55, the Google Maps configuration required two steps. There is now only one step since Google's Location Bookmarks are no longer used.</i></p>
+<p>Family Monitor requires Google Maps' Location Sharing to be enabled.  (The following screenshots are from the Android version of the Google Maps app but the iOS version is very similar.)</p>
+<li>Location sharing - those family members you wish to monitor must share their locations with you. Each family member may remove the sharing of their location at any time without notifying you, though you will notice that their location is no longer being shared with you. Let us assume you wish to monitor your son's location. You can either (1) directly ask your son to use his Google Maps app (this stage can't be done using a browser) to configure Maps to share his location with you, or (2) you can go into your Google Maps app and send an invitation to your son asking him to share his location. Detailed instructions can be found by googling or, for example, <a href="https://support.google.com/maps/answer/7326816">here</a>.
 <p>
 <img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/share1.png" alt="Shared1" >
 <img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/share2.png" alt="Shared2" >
 <img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/share3.png" alt="Shared3" >
 <img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/share4.png" alt="Shared4" >
 </p>
-<li>Location bookmarks - these are geographic locations created in Google Maps that are available to Family Monitor for defining alert rules, for example, "my son is more than 2km from his school". The location of the school is defined in Google Maps (either using the app or a browser) and then it's used by Family Monitor. These locations can be created either using Google Maps to save the desired locations to the Google Maps <i>Starred Places</i> list or directly within Google's <a href="https://www.google.com/bookmarks">bookmarks page</a>. For the former, within Google Maps, find the required location, long press the location, tap the name or address that pops-up, tap Save and then save to the Google Maps "Starred places" list. (More detailed instructions can be found by googling or, for example, <a href="https://support.google.com/maps/answer/3184808">here</a>). The location must be saved to the <i>Starred places</i> list for the location to show up in Family Monitor.
-<p>
-<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/location1.png" alt="Location1" >
-<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/location2.png" alt="Location2" >
-<img style="margin:20px 20px;border:2px solid black;width:40%" src="Screenshots/location3.png" alt="Location3" >
-</p>
-<img style="margin:20px 20px;border:2px solid black;width:70%" src="Screenshots/bookmarks.png" alt="Location Bookmarks" >
-</ol>
 <a id="FAQ"></a>
 <h2>FAQ</h2>
 <ul>
 <li>Change Google account - Tap the Logout button within Settings.
-<li>Give a location a better (more descriptive) name in the list of objects - Using a browser, go to your <a href="https://www.google.com/bookmarks">Google bookmarks page</a>, click Edit for the desired location and enter whatever you want in the Name field. 
-<a id="nolocation"/>
-<li>Red box around alert or a message about location can't be found - This is probably due to the age of the Android (unlikely to be iOS) system being used. The only option is to manually enter locations into your <a href="https://www.google.com/bookmarks">Google bookmarks page</a> with the following steps:
-<ul>
-<li>Click Add bookmark
-<li>Enter the name of the location (e.g. home or school) in the Name field
-<li>In the URL field enter: https://www.google.com/maps/@LATITUDE,LOGITUDE replacing LATITUDE and LONGITUDE with the values of the location you are defining, eg:
-<li>https://www.google.com/maps/@51.540846,-0.4257104
+<li>Red box around alert or a message about location can't be found - 
+Try recreating the location from the Map tab.
 </ul>
 </ul>
 </body>
